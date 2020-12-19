@@ -1,0 +1,88 @@
+
+.main{
+	padding: 0 5%;
+}
+.search{
+	width: 100%;
+	margin: 5% 0;
+	padding: 2% 0;
+	border-radius: 50rpx;
+	background-color: rgb(238,238,238);
+}
+.search .img{
+	width: 60rpx;
+	height: 60rpx;
+}
+.marg{
+	margin: 4% 0;
+}
+.btn .img{
+	width: 120rpx;
+	height: 120rpx;
+}
+.swa{
+	height: 280rpx;
+}
+.swb{
+	height: 180rpx;
+}
+.swipera{
+	border-radius: 30rpx;
+}
+.swiperb{
+	border-radius: 10rpx;
+}
+.swiper-item{
+	height: 100%;
+}
+.swipera .img{
+	width: 100%;
+	height: inherit;
+	border-radius: 30rpx;
+}
+.swiperb .img{
+	width: 100%;
+	height: inherit;
+	border-radius: 10rpx;
+}
+.moduleone>view{
+	width: 48%;
+	height: 180rpx;
+	border-radius: 10rpx;
+}
+.moduleone>view:first-child{
+	background-color: #06AD56;
+}
+.moduleone>view:last-child{
+	background-color: #007AFF;
+}
+.moduletwo{
+	height: 240rpx;
+	border-radius: 10rpx;
+	box-shadow: 0 0 20rpx #ccc;
+}
+.moduleone .img{
+	width: 100rpx;
+	height: 100rpx;
+}
+.moduletwo .img{
+	width: 120rpx;
+	height: 120rpx;
+}
+.moduleone text{
+	color: #fff;
+}
+.moduletwo text:first-child{
+	font-size: 16px;
+}
+.moduletwo text:last-child{
+	color: #999;
+}
+.moduletwo button{
+	color: #fff;
+	background-color: #007AFF;
+	line-height: 100%;
+	padding: 5%;
+	border-radius: 40rpx;
+}
+

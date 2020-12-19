@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "tui-icon": "/components/thorui/tui-icon/tui-icon"
+  }
+}

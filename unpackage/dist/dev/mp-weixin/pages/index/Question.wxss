@@ -1,0 +1,44 @@
+
+.active{
+	color: #007AFF;
+	border-bottom: 1px solid #007AFF;
+}
+.and-div{
+	padding: 4% 0;
+	background-color: #fff;
+}
+.and-div text{
+	font-size: 18px;
+	padding-bottom: 2%;
+}
+.one{
+	font-size: 16px;
+	padding: 4%;
+	margin: 4%;
+	border-radius: 10rpx;
+	background-color: #fff;
+}
+.one .end{
+	font-size: 14px;
+	color: #999;
+	margin-top: 10%;
+}
+.two{
+	min-height: calc(90vh);
+	font-size: 14px;
+	color: #999;
+	background-color: #fff;
+}
+.two .twoing{
+	margin: 0 4% 4%;
+	padding: 4%;
+	border-radius: 20rpx;
+	background-color: #eee;
+}
+.img{
+	width: 80rpx;height: 80rpx;border-radius: 10rpx;
+}
+.imgcs{
+	width: 40rpx;height: 40rpx;border-radius: 50%;
+}
+

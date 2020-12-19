@@ -1,0 +1,73 @@
+
+.module{
+	margin: 2% 4%;
+}
+.one>view{
+	padding: 2%;
+	background-color: rgb(238,238,238);
+	border-radius: 50rpx;
+}
+.one .img{
+	width: 50rpx;
+	height: 50rpx;
+	margin: 1% 2%;
+}
+.one input{
+	margin: 1% 1%;
+}
+.two{
+	/* margin: 2% 0; */
+	margin-top: 8%;
+	margin-bottom: 4%;
+	font-size: 16px;
+}
+.two .active{
+	color: #007AFF;
+}
+.two .poa{
+	background-color: rgba(213, 213, 213, 0.8);
+	z-index: 9;
+}
+.two .poa .w3>view,.two .poa .w40>view{
+	margin: 1rem 1%;
+	width: 50%;
+	text-align-last:justify;
+	text-align:justify;
+}
+.two .poa>view>view{
+	background-color: #fff;
+}
+.two .ptwo .end{
+	/* bottom: 30px; */
+}
+.three{
+	font-size: 16px;
+	padding: 4% 0;
+	border-bottom: 1px solid #1A1A1A;
+}
+.three .left{
+	height: 100rpx;
+}
+.three .left>view{
+	height: inherit;
+	margin-left: 20rpx;
+}
+.three .left>view>view>text{
+	border: 1px solid #1A1A1A;
+	border-radius: 20rpx;
+	padding: 0% 10%;
+	margin-right: 20%;
+}
+.three .left .img{
+	width: 100rpx;
+	height: 100rpx;
+	border-radius: 50%;
+}
+.three .right .img{
+	width: 40rpx;
+	height: 40rpx;
+}
+
+
+
+

@@ -1,0 +1,157 @@
+
+page,._ol,._ul,._h1,._h2,._h3,._h4,._h5,._h6,._p,._th,._td,._dl,._dd,form,._fieldset,._legend,input,textarea,._select{margin:0;padding:0;}
+page{font-size:0.1rem;background:#fff;}
+._a{color:#172c45;text-decoration:none;}
+._a:hover{color:#cd0200;text-decoration:underline;}
+._ul,._ol,._li{list-style:none;}
+._img{border:0;vertical-align:middle;}
+._table{border-collapse:collapse;border-spacing:0;}
+.min-height{min-height:calc(100vh)}
+.min-width{min-width: calc(100vw);}
+	/* 定位 */
+.pon{position:static!important;}
+.por{position:relative!important;}
+.poa{position:absolute!important;}
+.pof{position:fixed!important;}
+.pos{position:-webkit-sticky!important;position:sticky!important;}
+	/* 浮动 */
+.float-l{float:left!important;}
+.float-r{float:right!important;}
+	/* 清除浮动*/
+.clear:after{content:"";display:block;clear:both}
+	/* 隐藏 */
+.none{display:none;}
+.hidden{visibility:hidden;}
+.opacity{opacity:0;}
+.flow-auto{overflow:auto;}
+.flow-hidden{overflow:hidden;}
+.flow-x{overflow-x:hidden;}
+.flow-y{overflow-y:hidden;}
+.noborder{border:none;}
+	/* 层级 */
+.z9{z-index: 9;}
+.z99{z-index: 99;}
+.z999{z-index: 999;}
+.z9999{z-index: 9999;}
+	/* 主色调 */
+.fcolor{color: #007AFF;}
+.page{background-color: #eee;min-height: calc(100vh);}
+.bgccolor{background-color: #007AFF;}
+	/* .loginimg{background: url(./static/img/loginimg.png) no-repeat 100% 100%;background-size: 100% 100%;} */
+.bgcimg{background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAu4AAAFaCAYAAABBrtg0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3NpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTQwIDc5LjE2MDQ1MSwgMjAxNy8wNS8wNi0wMTowODoyMSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDozYTE3OGM1Yy03OTg3LTQzYTUtYTY5NC1lYzczOGJjNmMxMjciIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6Mzk5M0QwRkE4NjEzMTFFOThDMERDQkU1NkFGRjEwNDYiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6Mzk5M0QwRjk4NjEzMTFFOThDMERDQkU1NkFGRjEwNDYiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6M2ExNzhjNWMtNzk4Ny00M2E1LWE2OTQtZWM3MzhiYzZjMTI3IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjNhMTc4YzVjLTc5ODctNDNhNS1hNjk0LWVjNzM4YmM2YzEyNyIvPiA8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) no-repeat;background-size: 100% 26%;}
+.bgclinear{background-image: -webkit-linear-gradient(#9E2036, #EE405E);background-image: linear-gradient(#9E2036, #EE405E);}
+.boxcolor{box-shadow: 0rpx 10rpx 10rpx #ccc;}
+	/* 字体样式 */
+.f06rem{font-size: 0.6rem;}
+.f07rem{font-size: 0.7rem;}
+.f08rem{font-size: 0.8rem;}
+.f09rem{font-size: 0.9rem;}
+.f1rem{font-size: 1rem;}
+	/* 字体加粗 */
+.f-bold{font-weight:bold;}
+	/* 字体不换行 */
+.f-nowrap{white-space:nowrap;}
+	/* 首行缩进 */
+.f-indent{text-indent:2em;}
+	/* 字符间距 */
+.f-spacing{letter-spacing:1em;}
+	/* 单词及字母换行 */
+.f-all{word-wrap:break-word;word-break:break-all;}
+	/* 将长串字母或长单词自动换行 */
+.f-wrap{word-wrap:break-word;}
+	/* 将完整的单词拆分自动换行 */
+.f-break{word-break:break-all;}
+	/* 文本溢出隐藏 */
+.f-hidden3{
+	    overflow:hidden;/*溢出隐藏*/
+	    text-overflow: ellipsis;/*超出部分显示省略号*/
+	    display:-webkit-box;/*弹性盒*/
+	    -webkit-box-orient:vertical;/*设置对象内元素的排列方式为垂直*/
+	    -webkit-line-clamp:3;/*限制块元素文本行数*/
+}
+.f-hidden{
+	    overflow:hidden;/*溢出隐藏*/
+	    white-space:nowrap; /*不换行*/
+	    text-overflow:ellipsis;/*超出部分显示省略号*/
+	    -o-text-overflow:ellipsis;
+}
+.t-left{text-align:left;}
+.t-center{text-align:center;}
+.t-right{text-align:right;}
+.v-top{vertical-align:top;}
+.v-middle{vertical-align:middle;}
+.v-bottom{vertical-align:bottom;}
+.w10{width:10%;}
+.w20{width:20%;}
+.w30{width:30%;}
+.w40{width:40%;}
+.w50{width:50%;}
+.w60{width:60%;}
+.w70{width:70%;}
+.w80{width:80%;}
+.w90{width:90%;}
+.w100{width:100%;}
+.w2{width:50%;}
+.w3{width:33.333%;}
+.w4{width:25%;}
+.w5{width:20%;}
+.w6{width:16.666%;}
+.w7{width:14.285%;}
+.w8{width:12.5%;}
+.w9{width:11.111%;}
+.f1{-webkit-box-flex:1;-webkit-flex:1;flex:1;}
+.f2{-webkit-box-flex:2;-webkit-flex:2;flex:2;}
+.f3{-webkit-box-flex:3;-webkit-flex:3;flex:3;}
+.f4{-webkit-box-flex:4;-webkit-flex:4;flex:4;}
+.f5{-webkit-box-flex:5;-webkit-flex:5;flex:5;}
+.f6{-webkit-box-flex:6;-webkit-flex:6;flex:6;}
+.f7{-webkit-box-flex:7;-webkit-flex:7;flex:7;}
+.f8{-webkit-box-flex:8;-webkit-flex:8;flex:8;}
+.f9{-webkit-box-flex:9;-webkit-flex:9;flex:9;}
+.f10{-webkit-box-flex:0 0 10%;-webkit-flex:0 0 10%;flex:0 0 10%}
+.f16{-webkit-box-flex:0 0 16.666%;-webkit-flex:0 0 16.666%;flex:0 0 16.666%;}
+.f20{-webkit-box-flex:0 0 20%;-webkit-flex:0 0 20%;flex:0 0 20%;}
+.f25{-webkit-box-flex:0 0 25%;-webkit-flex:0 0 25%;flex:0 0 25%;}
+.f33{-webkit-box-flex:0 0 33.333%;-webkit-flex:0 0 33.333%;flex:0 0 33.333%;}
+.f50{-webkit-box-flex:0 0 50%;-webkit-flex:0 0 50%;flex:0 0 50%;}
+.f100{-webkit-box-flex:0 0 100%;-webkit-flex:0 0 100%;flex:0 0 100%;}
+.o1{-webkit-box-ordinal-group:2;-webkit-order:1;order:1}
+.o2{-webkit-box-ordinal-group:3;-webkit-order:2;order:2}
+.o3{-webkit-box-ordinal-group:4;-webkit-order:3;order:3}
+.o4{-webkit-box-ordinal-group:5;-webkit-order:4;order:4}
+.o5{-webkit-box-ordinal-group:6;-webkit-order:5;order:5}
+.block{display:block!important;}
+	/*块级元素*/
+.blocks{display:inline-block!important;}
+	/*内联元素*/
+.boxing{box-sizing:border-box!important;}
+.flex{display: box;display: -webkit-box;
+	    display: -webkit-flex;display:flex!important;
+}
+	/*块级弹性盒*/
+.flexs{display: box;display: -webkit-box;
+	    display: -webkit-flex;display:-webkit-inline-box!important;display:-webkit-inline-flex!important;display:inline-flex!important;
+}
+	/*内联弹性盒*/
+.F-xy{display:-webkit-box!important;display:-webkit-flex!important;display:flex!important;-webkit-box-pack:center!important;-webkit-justify-content:center!important;justify-content:center!important;-webkit-box-align:center!important;-webkit-align-items:center!important;align-items:center!important;}
+.F-wrap{display:-webkit-box!important;display:-webkit-flex!important;display:flex!important;-webkit-flex-wrap:wrap!important;flex-wrap:wrap!important;}
+.F-wrapr{display:-webkit-box!important;display:-webkit-flex!important;display:flex!important;-webkit-flex-wrap:wrap-reverse!important;flex-wrap:wrap-reverse!important;}
+.FX{display:-webkit-box!important;display:-webkit-flex!important;display:flex!important;-webkit-box-orient:horizontal!important;-webkit-box-direction:normal!important;-webkit-flex-direction:row!important;flex-direction:row!important;}
+.FX-r{display:-webkit-box!important;display:-webkit-flex!important;display:flex!important;-webkit-box-orient:horizontal!important;-webkit-box-direction:reverse!important;-webkit-flex-direction:row-reverse!important;flex-direction:row-reverse!important;}
+.FY{display:-webkit-box!important;display:-webkit-flex!important;display:flex!important;-webkit-box-orient:vertical!important;-webkit-box-direction:normal!important;-webkit-flex-direction:column!important;flex-direction:column!important;}
+.FY-r{display:-webkit-box!important;display:-webkit-flex!important;display:flex!important;-webkit-box-orient:vertical!important;-webkit-box-direction:reverse!important;-webkit-flex-direction:column-reverse!important;flex-direction:column-reverse!important;}
+.FX-b{display:-webkit-box!important;display:-webkit-flex!important;display:flex!important;-webkit-box-pack:baseline!important;-webkit-justify-content:baseline!important;justify-content:baseline!important;}
+.FX-c{display:-webkit-box!important;display:-webkit-flex!important;display:flex!important;-webkit-box-pack:center!important;-webkit-justify-content:center!important;justify-content:center!important;}
+.FX-sa{display:-webkit-box!important;display:-webkit-flex!important;display:flex!important;-webkit-justify-content:space-around!important;justify-content:space-around!important;}
+.FX-sb{display:-webkit-box!important;display:-webkit-flex!important;display:flex!important;-webkit-box-pack:justify!important;-webkit-justify-content:space-between!important;justify-content:space-between!important;}
+.FX-fs{display:-webkit-box!important;display:-webkit-flex!important;display:flex!important;-webkit-box-pack:start!important;-webkit-justify-content:flex-start!important;justify-content:flex-start!important;}
+.FX-fe{display:-webkit-box!important;display:-webkit-flex!important;display:flex!important;-webkit-box-pack:end!important;-webkit-justify-content:flex-end!important;justify-content:flex-end!important;}
+.FY-b{display:-webkit-box!important;display:-webkit-flex!important;display:flex!important;-webkit-box-align:baseline!important;-webkit-align-items:baseline!important;align-items:baseline!important;}
+	/*以首行基线对齐*/
+.FY-c{display:-webkit-box!important;display:-webkit-flex!important;display:flex!important;-webkit-box-align:center!important;-webkit-align-items:center!important;align-items:center!important;}
+.FY-fs{display:-webkit-box!important;display:-webkit-flex!important;display:flex!important;-webkit-box-align:start!important;-webkit-align-items:flex-start!important;align-items:flex-start!important;}
+.FY-fe{display:-webkit-box!important;display:-webkit-flex!important;display:flex!important;-webkit-box-align:end!important;-webkit-align-items:flex-end!important;align-items:flex-end!important;}
+	/*每个页面公共css uParse为优化版本*/
+
+
+

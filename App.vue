@@ -112,12 +112,13 @@ export default {
 	.z9999{z-index: 9999;}
 	
 	/* 主色调 */
-	.fcolor{color: #9E2036;}
-	.bgccolor{background-color: #9E2036;}
-	/* .loginimg{background: url(./static/img/loginimg.png) no-repeat 100% 100%;background-size: 100% 100%;}
-	.bgcimg{background: url(./static/img/bgcimg.png) no-repeat 100% 100%;background-size: 100% 100%;} */
+	.fcolor{color: #007AFF;}
+	.page{background-color: #eee;min-height: calc(100vh);}
+	.bgccolor{background-color: #007AFF;}
+	/* .loginimg{background: url(./static/img/loginimg.png) no-repeat 100% 100%;background-size: 100% 100%;} */
+	.bgcimg{background: url(static/images/login/bg_login.png) no-repeat;background-size: 100% 26%;}
 	.bgclinear{background-image: linear-gradient(#9E2036, #EE405E);}
-	.boxcolor{box-shadow: 0 0 10 #FD5757;}
+	.boxcolor{box-shadow: 0rpx 10rpx 10rpx #ccc;}
 	
 	/* 字体样式 */
 	.f06rem{font-size: 0.6rem;}
@@ -200,16 +201,17 @@ export default {
 	
 	.FY-r{display:flex!important;flex-direction:column-reverse!important;}
 	
+	.FX-b{display:flex!important;justify-content:baseline!important;}
 	.FX-c{display:flex!important;justify-content:center!important;}
-	.FX-sb{display:flex!important;justify-content:space-between!important;}
 	.FX-sa{display:flex!important;justify-content:space-around!important;}
+	.FX-sb{display:flex!important;justify-content:space-between!important;}
 	.FX-fs{display:flex!important;justify-content:flex-start!important;}
 	.FX-fe{display:flex!important;justify-content:flex-end!important;}
 	
-	.FY-c{display:flex!important;align-items:center!important;}
 	.FY-b{display:flex!important;align-items:baseline!important;}/*以首行基线对齐*/
-	.FY-fe{display:flex!important;align-items:flex-end!important;}
+	.FY-c{display:flex!important;align-items:center!important;}
 	.FY-fs{display:flex!important;align-items:flex-start!important;}
+	.FY-fe{display:flex!important;align-items:flex-end!important;}
 	
 /*每个页面公共css uParse为优化版本*/
 @import './common/app.css';

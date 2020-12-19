@@ -1,0 +1,82 @@
+
+.bgccolor{background-color: #007AFF;}
+.module{
+	padding: 2% 4%;
+	background-color: #fff;
+}
+.one{
+	padding-top: 4%;
+}
+.one>view{
+	padding: 2%;
+	background-color: rgb(238,238,238);
+	border-radius: 50rpx;
+}
+.one .img{
+	width: 50rpx;
+	height: 50rpx;
+	margin: 1% 2%;
+}
+.one input{
+	margin: 1% 1%;
+}
+.two{
+	padding: 4%;
+	/* margin-top: 8%; */
+	margin-bottom: 4%;
+	font-size: 16px;
+}
+.two .active{
+	color: #007AFF;
+}
+.two .poa{
+	background-color: rgba(213, 213, 213, 0.8);
+	z-index: 9;left: 0;
+}
+.two .poa .w3>view,.two .poa .w40>view{
+	margin: 1rem 1%;
+	width: 50%;
+	text-align-last:justify;
+	text-align:justify;
+}
+.two .poa>view>view{
+	background-color: #fff;
+}
+.two .ptwo .end button{
+	margin: 0;padding: 1% 0;line-height: normal;border-radius: 20rpx;
+}
+.two .ptwo .end button:first-child{
+	border: 1px solid #999;
+	background-color: #fff;
+}
+.two .ptwo .end button:first-child{
+	/* bottom: 30px; */
+}
+.three{
+	font-size: 14px;
+	padding: 2% 4%;
+	margin: 4% 0;
+}
+.three .left{
+	width: 64%;
+	height: 100rpx;
+}
+.three .left>view{
+	height: inherit;
+}
+.three .left>view>text:last-child{
+	margin-top: 10%;
+}
+.three .left .img{
+	width: 100rpx;
+	height: 100rpx;
+	border-radius: 50%;
+}
+.three .right .img{
+	width: 80rpx;
+	height: 80rpx;
+}
+
+
+
+

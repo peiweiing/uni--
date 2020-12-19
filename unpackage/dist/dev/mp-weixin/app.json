@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/school/school",
+    "pages/appraisal/appraisal",
+    "pages/user/user",
+    "pages/school/Seekschool",
+    "pages/school/Seekmajor",
+    "pages/index/Question",
+    "pages/index/Subjectlist",
+    "pages/index/AIselect"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#077DFF",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/img/rectangular_znxzy.png",
+        "selectedIconPath": "static/img/rectangular_znxzy.png"
+      },
+      {
+        "pagePath": "pages/school/school",
+        "text": "学校",
+        "iconPath": "static/img/rectangular_cxx.png",
+        "selectedIconPath": "static/img/rectangular_cxx.png"
+      },
+      {
+        "pagePath": "pages/appraisal/appraisal",
+        "text": "测评",
+        "iconPath": "static/img/rectangular_czy.png",
+        "selectedIconPath": "static/img/rectangular_czy.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "个人中心",
+        "iconPath": "static/img/rectangular_znxx.png",
+        "selectedIconPath": "static/img/rectangular_znxx.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

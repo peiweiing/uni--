@@ -3,10 +3,63 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "uni-app",
+                "app-plus": {
+                    "titleNView": false //禁用原生导航栏
+                }
 			}
 		}
-	],
+	    ,{
+            "path" : "pages/school/school",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/appraisal/appraisal",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/user/user",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/school/Seekschool",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/school/Seekmajor",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/index/Question",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/Subjectlist",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/index/AIselect",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+                "app-plus": {
+                    "titleNView": false //禁用原生导航栏
+                }
+            }
+            
+        }
+    ],
 	"easycom": {
 		"autoscan": true,
 		"custom": {
@@ -18,5 +71,36 @@
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#ccc",
+		"selectedColor": "#077DFF",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/img/index.png",
+				"selectedIconPath": "static/img/indexs.png"
+			},
+			{
+				"pagePath": "pages/school/school",
+				"text": "学校",
+				"iconPath": "static/img/two.png",
+				"selectedIconPath": "static/img/twos.png"
+			},
+			{
+				"pagePath": "pages/appraisal/appraisal",
+				"text": "测评",
+				"iconPath": "static/img/three.png",
+				"selectedIconPath": "static/img/threes.png"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"text": "个人中心",
+				"iconPath": "static/img/user.png",
+				"selectedIconPath": "static/img/users.png"
+			}
+		]
 	}
+	
 }
